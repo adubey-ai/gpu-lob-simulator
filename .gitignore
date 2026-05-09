@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.o
+*.out
+lob_bench
+.venv/
+venv/
+data/
+.idea/
+.vscode/
