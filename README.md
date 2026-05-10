@@ -4,6 +4,9 @@ A limit-order-book simulator where the **entire matching engine runs on GPU**,
 built for Monte-Carlo counterfactual analysis of execution strategies under
 calibrated Hawkes-driven order flow.
 
+📖 **[Deep-dive docs](docs/DEEP_DIVE.md)** — architecture, Hawkes math,
+Almgren-Chriss derivation, CUDA kernel design, and interview Q&A.
+
 ## What this project covers
 
 1. **Correctness oracle**: CPU reference matching engine (price-time priority,
